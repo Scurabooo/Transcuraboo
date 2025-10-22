@@ -1,0 +1,23 @@
+{
+  "short_name": "Transcuraboo",
+  "name": "Transcuraboo",
+  "description": "An application to transcribe audio files of any size and in multiple languages simultaneously using the Gemini API. Simply upload your audio files and get the transcriptions.",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4338ca",
+  "background_color": "#111827"
+}

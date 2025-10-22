@@ -6,6 +6,7 @@ import { FileCard } from './components/FileCard';
 import { UploadCloudIcon } from './components/icons/UploadCloudIcon';
 import { TrashIcon } from './components/icons/TrashIcon';
 import { RealtimeTranscriber } from './components/RealtimeTranscriber';
+import { InstallPWA } from './components/InstallPWA';
 
 const CHUNK_SIZE_SECONDS = 20; // Smaller chunks for faster feedback
 const CONCURRENCY_LIMIT = 10; // Increased concurrency for faster processing
@@ -148,9 +149,12 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-gray-900 text-gray-100 flex flex-col items-center p-4 sm:p-6 lg:p-8">
       <div className="w-full max-w-4xl mx-auto">
         <header className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-500">
-            Transcuraboo
-          </h1>
+          <div className="flex justify-center items-center gap-4">
+            <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-500">
+              Transcuraboo
+            </h1>
+            <InstallPWA />
+          </div>
           <p className="mt-4 text-lg text-gray-400">
             Transcribe pre-recorded audio files or capture your voice in real-time.
           </p>
