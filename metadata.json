@@ -1,0 +1,7 @@
+{
+  "name": "Transcuraboo",
+  "description": "An application to transcribe audio files of any size and in multiple languages simultaneously using the Gemini API. Simply upload your audio files and get the transcriptions.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
